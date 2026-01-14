@@ -31,7 +31,7 @@ class MainApp extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(title: const Text('Error')),
         body: Center(
-          child: Text('Página no encontrada: ${state.uri.path}'),
+          child: Text('Page not found: ${state.uri.path}'),
         ),
       );
     },

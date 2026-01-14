@@ -3,7 +3,7 @@ import 'package:go_router/go_router.dart';
 
 /// Home page - Dashboard principal de AgentOps Console
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   static const String name = 'home';
   static const String path = '/';
