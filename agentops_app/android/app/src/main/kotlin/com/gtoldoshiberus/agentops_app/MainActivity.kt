@@ -1,4 +1,4 @@
-package com.example.agentops_app
+package com.gtoldoshiberus.agentops_app
 
 import io.flutter.embedding.android.FlutterActivity
 
