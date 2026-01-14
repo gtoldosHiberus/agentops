@@ -24,6 +24,9 @@ dev_dependencies:
   json_serializable: ^6.8.1
   riverpod_generator: ^2.5.15
   mocktail: ^1.0.3
+  bdd_widget_test: ^1.8.2
+  integration_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true

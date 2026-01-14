@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      bdd_widget_test:
+        generate_for:
+          - features/**
+        options:
+          test_folder: test
+          shared_test_steps_folder: test/shared_test_steps
