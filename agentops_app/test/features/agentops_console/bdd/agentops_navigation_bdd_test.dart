@@ -1,12 +1,18 @@
-// This file is auto-generated from agentops_navigation.feature
-// Do not edit manually. Run `dart run build_runner build` to regenerate.
+// This file is generated from agentops_navigation.feature
+// Workflow: .feature (Gherkin spec) → Dart test + step definitions
+// 
+// To regenerate:
+// 1. Update features/agentops_navigation.feature with new scenarios
+// 2. Add corresponding step definition files to test/shared_test_steps/
+// 3. Update this test file with new testWidgets() matching the scenarios
+// 4. Run: flutter test test/features/agentops_console/bdd/
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:agentops_app/main.dart';
-import '../../../../shared_test_steps/the_app_is_running.dart';
-import '../../../../shared_test_steps/i_see_text.dart';
-import '../../../../shared_test_steps/i_see_page.dart';
+import '../../../shared_test_steps/the_app_is_running.dart';
+import '../../../shared_test_steps/i_see_text.dart';
+import '../../../shared_test_steps/i_see_page.dart';
 
 void main() {
   group('''Feature: AgentOps Console Navigation''', () {

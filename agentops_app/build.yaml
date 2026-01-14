@@ -1,9 +1,12 @@
+# Build configuration for code generation
+# Note: bdd_widget_test does NOT provide a builder for auto-generating tests from .feature files
+# .feature files serve as specification/documentation only
+# Dart test files must be written manually following BDD patterns
+
 targets:
   $default:
     builders:
-      bdd_widget_test:
-        generate_for:
-          - features/**
-        options:
-          test_folder: test
-          shared_test_steps_folder: test/shared_test_steps
+      # Builders configured by other packages
+      riverpod_generator:
+      freezed:
+      json_serializable:
